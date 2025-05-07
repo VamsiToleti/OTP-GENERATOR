@@ -1,0 +1,110 @@
+.otp{
+    border: 2px solid rgb(255, 255, 255);
+    padding:14%;
+    width: fit-content;
+    backdrop-filter: blur(10px);
+
+  }
+  body{
+    text-align: center;
+    margin-left:28%;
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+  }
+  h1{
+    margin-right:42%;
+  }
+  div input{
+    padding: 0;
+  }
+
+   button {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    width: 65px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-weight: bolder;
+    transition: width 0.5s ease, height 0.5s ease, color 0.5s ease;
+  }
+  
+  button:hover {
+    width: 120px;
+    height: 50px; 
+  }
+  input{
+    font-weight: bolder;
+  }
+
+  
+  @media (max-width: 768px) {
+    body {
+      margin-left: 0;
+      padding: 20px;
+    }
+  
+    h1 {
+      margin-right: 0;
+      font-size: 1.5rem;
+    }
+  
+    .otp {
+      padding: 10%;
+      width: 90%;
+      margin: auto;
+      box-sizing: border-box;
+    }
+  
+    input {
+      width: 40px !important;
+      font-size: 1.2rem;
+      margin: 5px;
+    }
+  
+    button {
+      width: 80px;
+      height: 40px;
+      font-size: 1rem;
+    }
+  
+    button:hover {
+      width: 110px;
+      height: 50px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    input {
+      width: 30px !important;
+      font-size: 1rem;
+    }
+  
+    h1 {
+      font-size: 1.2rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
