@@ -1,4 +1,5 @@
 alert("hi user");
+prompt("enter age of player");
 let ip=document.querySelectorAll('input');
 for(let i=0;i<ip.length;i++){
     ip[i].style.width="24px";
